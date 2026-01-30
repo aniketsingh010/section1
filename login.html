@@ -13,30 +13,72 @@
             font-family: roboto;
         }
         .card{
-            border: 2px solid red;
+            
             width:20%;
             border-radius: 10px;
             padding: 30px;
             box-shadow: 10px 20px 10px 0 #0000007a;
             box-sizing:border-box;
+            background-color: white;
         }
         body{
             display:flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+           /* background-color: #ddd;
+            background-image: url("https://tse1.mm.bing.net/th/id/OIP.zB1rsS80G2GPbY0mMvKnigHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");*/
+            /* background-image: linear-gradient(60deg,#ffc1ff, #c3c3c3); */
+            background-image: linear-gradient(60deg,#000000,#ffffff7e),url("https://tse1.mm.bing.net/th/id/OIP.zB1rsS80G2GPbY0mMvKnigHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+            background-size: cover;
+            background-position: bottom;
+            
         }
         .text-input{
-            display: block;
+            display: black;
             width: 100%;
-            padding: 3px;
             box-sizing: border-box;
             margin-bottom: 30px;
-            border-radius: 10px;
-            
+            border-radius: 5px;
+            border: 1px solid black;
+
         }
         .font-title{
             font-size: 30px;
+            text-align: center;
+            border-radius: 5px;
+            /* border: 1px solid black; */
+            /*border-bottom: 30px;*/
+        }
+        .btn-submit{
+            width: 100%;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+
+        }
+        .font-title{
+            font-size: 35px;
+            text-align: center;
+
+    
+
+
+        }
+        .link {
+            display: block;
+            text-decoration: none;
+            color: blueviolet;
+
+        }
+        .forget-link{
+            margin-bottom: 20px;
+
+        }
+        .sigup-link{
+            margin: 20px;
             text-align: center;
         }
     </style>
@@ -44,14 +86,16 @@
 </head>
 <body>
     <div class="card">
-    <h3 class="form=font-title"> login form</h3>
+    <h3 class="font-title"> login form</h3>
     <form>
          <label for="">Email addewss</label>
         <input type="email" class="text-input">
         <label for="">Password</label>
         <input type="password" class="text-input">
-         
-        <input type="submit">
+        <a href="#" class="link forget-link">forget password</a>
+         <button class="btn-submit">submit</button>
+         <a href="#" class="link sigup-link">Not registered yet? sigup Now</a>
+        
     </form>
     </div>
 </body>

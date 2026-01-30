@@ -1,0 +1,21 @@
+h1{
+    color: rgb(97, 97, 38);
+}
+button{
+    color: blue;
+    padding: 10px;
+    background-color: yellow;
+
+}
+body   {
+    /* background-color: black; */
+    /* ...............................background image creating */
+    background-image: url("https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?cs=srgb&dl=pexels-asadphoto-3155639.jpg&fm=jpg");
+    
+}
+#font{
+    color:yellow;
+}
+.null{ 
+    background-color: blue; 
+ } 
