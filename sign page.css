@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #a27c4b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Pictures-3840x2160.jpg");
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #524a4a;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #999999;
+    font-size: 14px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.3s;
+    background: #fff;
+    padding: 0 5px;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: -8px;
+    color: #667eea;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #51535b;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d1d1d6;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
