@@ -35,3 +35,7 @@ console.log(smartphone.colors[2]);
 
 
 
+
+
+
+
